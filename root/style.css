@@ -12,7 +12,7 @@ a {
 
 .showcase::after {
     content:'';
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     background-image: url(./images/background2.jpeg);
     background-size: cover;
@@ -39,7 +39,7 @@ a {
     z-index: 1;
     top: 10%;
     left: 50%;
-    margin-top: 105px;
+    margin-top: 0px;
     margin-left: -145px;
     width: 300px;
     height: 350px;
