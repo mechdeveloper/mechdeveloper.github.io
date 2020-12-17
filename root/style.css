@@ -24,15 +24,15 @@ a {
     transition: all 1000ms;
 }
 
-.showcase:hover::after {
+/* .showcase:hover::after {
     filter: blur(0px);
     -webkit-filter: blur(0px);
-}
+} */
 
-.showcase:hover .content {
+/* .showcase:hover .content {
     filter: blur(2px);
     -webkit-filter: blur(2px);
-}
+} */
 
 .content {
     position: absolute;
@@ -75,6 +75,13 @@ a {
     display: grid;
     grid: gap 20px;
     grid-template-columns: repeat(3, 1fr);
+
+}
+
+.grid-4 {
+    display: grid;
+    grid: gap 20px;
+    grid-template-columns: repeat(4, 1fr);
 
 }
 
