@@ -136,6 +136,7 @@ footer p {
         display: none;
     }
 
+    .grid-4,
     .grid-3, 
     .grid-2 {
         grid-template-columns: 1fr;
