@@ -71,10 +71,10 @@ a {
     padding: 4rem 1rem;
 }
 
-.grid-3 {
+.grid-5 {
     display: grid;
     grid: gap 20px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
 
 }
 
@@ -82,6 +82,13 @@ a {
     display: grid;
     grid: gap 20px;
     grid-template-columns: repeat(4, 1fr);
+
+}
+
+.grid-3 {
+    display: grid;
+    grid: gap 20px;
+    grid-template-columns: repeat(3, 1fr);
 
 }
 
@@ -136,6 +143,7 @@ footer p {
         display: none;
     }
 
+    .grid-5,
     .grid-4,
     .grid-3, 
     .grid-2 {
