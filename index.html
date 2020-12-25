@@ -75,6 +75,29 @@
         </div>
     </section>
 
+    <!-- Twitch -->
+    <section class="about bg-light">
+        <div class="container">
+            <div class="grid-2">
+                <!-- Add a placeholder for the Twitch embed -->
+                <div class="center" id="twitch-embed"></div>
+                <div>
+                    <h3>Twitch</h3>
+                    <p>Hang out with me on my Twitch Streams. Join me in my journey exploring the technical world. Drop a follow and get notified when I am online. Join the live chat and be a part of the community.</p>
+                </div>
+                <!-- Load the Twitch embed script -->
+                <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+
+                <!-- Create a Twitch.Player object. This will render within the placeholder div -->
+                <script type="text/javascript">
+                new Twitch.Player("twitch-embed", {
+                    channel: "ashishsinghbaghel"
+                });
+                </script>
+            </div>
+        </div>
+    </section>
+
     <!-- About -->
     <section class="about bg-light">
         <div class="container">
